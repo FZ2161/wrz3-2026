@@ -17,7 +17,7 @@ export default function App() {
       users.forEach((user) => {
         console.log(user.name);
       });
-
+ 
     }
 
     getUsers();
@@ -36,4 +36,5 @@ export default function App() {
       }
     </div>
   );
+  // będzie trzeba przekazywać parametry w górę, do rodzica
 }
